@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .work-card > .overlay {
+        @apply absolute left-0 right-0 bottom-[-100%] transition-all duration-500 ease-out;
+    }
+    
+    /* Efek Hover di Desktop */
+    .group:hover > .overlay {
+        @apply bottom-0;
+    }
+    
+    /* Efek Klik di Mobile */
+    .work-card.active > .overlay {
+        @apply bottom-0;
+    }
+    
+    .grid-card {
+        @apply bg-blue-500 rounded-lg w-full max-w-full aspect-square overflow-hidden relative hover:scale-95 transition-all duration-500;
+    }
+    .grid-card-img {
+        @apply w-full h-full bg-cover bg-center absolute group-hover:scale-105 transition-all duration-500;
+    }
+    
+}
