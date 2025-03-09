@@ -607,34 +607,6 @@ video {
   top: 1.5rem;
 }
 
-.left-3 {
-  left: 0.75rem;
-}
-
-.left-10 {
-  left: 2.5rem;
-}
-
-.left-16 {
-  left: 4rem;
-}
-
-.left-28 {
-  left: 7rem;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.top-24 {
-  top: 6rem;
-}
-
 .z-0 {
   z-index: 0;
 }
@@ -669,14 +641,6 @@ video {
 
 .row-span-1 {
   grid-row: span 1 / span 1;
-}
-
-.m-10 {
-  margin: 2.5rem;
-}
-
-.m-5 {
-  margin: 1.25rem;
 }
 
 .m-2 {
@@ -842,10 +806,6 @@ video {
   gap: 1.5rem;
 }
 
-.self-start {
-  align-self: flex-start;
-}
-
 .self-end {
   align-self: flex-end;
 }
@@ -896,11 +856,6 @@ video {
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
-}
-
-.bg-gray-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
 }
 
 .bg-sky-600 {
@@ -966,10 +921,6 @@ video {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'img\/Galery\/uiux\.jpg\'\)\] {
-  background-image: url('img/Galery/uiux.jpg');
 }
 
 .from-sky-400 {
@@ -1038,6 +989,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -1061,11 +1017,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 .pb-1 {
@@ -1331,12 +1282,12 @@ html, body {
 }
 
 @media (min-width: 768px) {
-  .md\:left-\[-30px\] {
-    left: -30px;
-  }
-
   .md\:left-28 {
     left: 7rem;
+  }
+
+  .md\:left-\[-30px\] {
+    left: -30px;
   }
 
   .md\:top-24 {
@@ -1361,6 +1312,11 @@ html, body {
 
   .md\:m-10 {
     margin: 2.5rem;
+  }
+
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .md\:flex {
@@ -1431,6 +1387,11 @@ html, body {
     align-self: center;
   }
 
+  .md\:bg-gray-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+  }
+
   .md\:p-10 {
     padding: 2.5rem;
   }
@@ -1459,24 +1420,19 @@ html, body {
     padding-right: 2rem;
   }
 
-  .md\:py-14 {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
-  }
-
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
 
-  .md\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
   .md\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .md\:pl-12 {
@@ -1592,9 +1548,9 @@ html, body {
     line-height: 1;
   }
 
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
