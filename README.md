@@ -1,26 +1,32 @@
-# Informatics Study Club (ISC) Landing Page
+# 🖥️ Informatics Study Club (ISC) Landing Page
 
-Website landing page resmi dari **Informatics Study Club (ISC)** Universitas Pamulang. Halaman ini memberikan informasi seputar komunitas, visi & misi, divisi-divisi yang ada, serta dokumentasi kegiatan ISC.
-
-## 🔗 Demo Live
-
-👉 [Lihat Website]((https://isc-landingpage.vercel.app/))
+Selamat datang di repositori resmi **Informatics Study Club (ISC)** Universitas Pamulang!  
+Website landing page ini menyajikan informasi lengkap mengenai komunitas ISC, termasuk **visi & misi**, **divisi-divisi**, dan **dokumentasi kegiatan**.
 
 ---
 
-## 🧩 Fitur Utama
+## 🌐 Demo Live
 
-- ✅ Desain modern dan responsif
-- ✅ Navigasi mudah antar bagian (About, Visi & Misi, Divisions, Gallery)
-- ✅ Menampilkan divisi utama: Web Development, UI/UX, Data Science
-- ✅ Galeri dokumentasi kegiatan
-- ✅ Tombol **Join Us** untuk ajakan bergabung
+[Lihat Website ISC](https://isc-landingpage.vercel.app/) 👈  
 
 ---
 
-## 🏗️ Teknologi yang Digunakan
+## ✨ Fitur Utama
 
-- HTML5
-- TailwindCSS
-- JavaScript
-- Font: Google Fonts
+- **Desain Modern & Responsif**: Tampilan optimal di desktop, tablet, dan mobile.  
+- **Navigasi Mudah**: Menu yang memudahkan akses ke About, Visi & Misi, Divisions, Gallery.  
+- **Informasi Divisi Utama**: Web Development, UI/UX, Data Science.  
+- **Galeri Kegiatan ISC**: Menampilkan dokumentasi kegiatan dan acara.  
+- **Tombol Join Us**: Ajakan bergabung dengan komunitas ISC secara jelas dan interaktif.  
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **HTML5** – Struktur halaman yang semantic dan SEO-friendly  
+- **TailwindCSS** – Styling cepat dan responsif  
+- **JavaScript** – Menambahkan interaktivitas pada halaman  
+- **Google Fonts** – Tipografi modern dan menarik  
+
+---
+
